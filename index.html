@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PERSONAL PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <section class="main">
+        <div class="img-container">
+            <img class="img" src="roberto.jpg" style="height: 70px; width: 70px; border-radius: 999px;" alt="">
+        </div>
+        <div class="sub-main">
+            <!-- anchor tags home about contact login -->
+            <a href="#"><h4>Home</h4></a>
+            <a href="#"><h4>About </h4></a>
+            <a href="#"><h4>Education</h4></a>
+            <a href="#" style="border-radius: 4px; text-decoration: underline;"><h4>contact </h4></a>
+            <a href="dancan CV.docx">download CV</a>
+        </div>
+    </section>
+    
+    <div class="slider">
+        <div class="slider-container">
+           
+              
+                <div class="slider-item">
+                  <img src="kkk.jpg" alt="Beautiful">
+                  <h3>Beautiful</h3>
+              
+                </div>
+                <div class="slider-item">
+                  <img src="xxx.jpg" alt="Tie">
+                  <h3>Tie</h3>
+                  
+                </div>
+             
+        </div>
+        <div class="slider-controls">
+          <button class=" prev slider-control"></button>
+          <button class=" next slider-control"></button>
+</div>
+      </div>
+      <div class="wrapper">
+       
+        <div class="content">
+          <h1>Dashboard</h1>
+          <p>
+            <iframe  id="content" src="home.html" frameborder="0">
+               
+            </iframe>
+          </p>
+        </div>
+        <div class="sidebar">
+            <ul>
+              <li>   <a onclick="document.getElementById('content').src='home.html'" class="a-ref">Home</a></li>
+              <li>    <a onclick="document.getElementById('content').src='sidebar.html'" class="a-ref">About</a></li>
+              <li>    <a onclick="document.getElementById('content').src='education.html'" class="a-ref">education</a></li>
+              <li>   <a onclick="document.getElementById('content').src='content.html'" class="a-ref">Contact</a></li>
+            </ul>
+          </div>
+      </div>
+      
+<div class="foot">Dancan Kaiser &copy; Copyrights 2023</div>
+    <script src="index.js"></script>
+</body>
+</html>
